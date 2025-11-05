@@ -4,7 +4,7 @@ export const msalConfig = {
     authority:
       "https://login.microsoftonline.com/d6888770-182a-402b-81ae-b695d2c06904", // use your tenant ID if needed
     redirectUri: "https://mapify-client-3.vercel.app/auth/login", // 👈 must match in Azure app registration
-    // postLogoutRedirectUri: "http://localhost:5173",
+    postLogoutRedirectUri: "https://mapify-client-3.vercel.app",
   },
   cache: {
     cacheLocation: "localStorage",
